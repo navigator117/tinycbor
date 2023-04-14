@@ -1,0 +1,5 @@
+name: tinycbor
+
+build:
+  cmake: .
+  kconfig: Kconfig
