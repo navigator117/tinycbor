@@ -20,3 +20,4 @@ zephyr_library_sources(PRIVATE
 	src/cbortojson.c
 	src/cborvalidation.c)
 zephyr_library_include_directories(PUBLIC src)
+zephyr_library_compile_options(-DCBOR_ENCODER_WRITER_CONTROL=-1 -DCBOR_PARSER_READER_CONTROL=-1)
