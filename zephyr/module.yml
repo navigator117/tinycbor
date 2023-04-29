@@ -1,4 +1,4 @@
-name: tinycbor
+name: tinycbor-original
 
 build:
   cmake: .
