@@ -1,5 +1,5 @@
 name: tinycbor-original
 
 build:
-  cmake: .
-  kconfig: Kconfig
+  cmake: zephyr
+  kconfig: zephyr/Kconfig
