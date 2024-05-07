@@ -1,0 +1,8 @@
+config TINYCBOR_ORIGINAL
+	bool "enable tinycbor-original module"
+    default y
+	help
+	  Enable tinycbor-original module as a dependence in your project.
+
+if TINYCBOR_ORIGINAL
+endif # TINYCBOR_ORIGINAL

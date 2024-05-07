@@ -33,7 +33,7 @@
 #endif
 #define __STDC_WANT_IEC_60559_TYPES_EXT__
 
-#include "cbor.h"
+#include "tinycbor/cbor.h"
 #include "compilersupport_p.h"
 
 #if defined(CBOR_CUSTOM_ALLOC_INCLUDE)

@@ -29,7 +29,7 @@
 #endif
 #define __STDC_WANT_IEC_60559_TYPES_EXT__
 
-#include "cbor.h"
+#include "tinycbor/cbor.h"
 
 #include "cborinternal_p.h"
 

@@ -1,4 +1,4 @@
-#include "../src/cbor.h"
+#include "../inc/tinycbor/cbor.h"
 
 #include <sys/stat.h>
 #include <assert.h>
